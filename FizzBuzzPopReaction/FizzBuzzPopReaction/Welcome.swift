@@ -37,7 +37,7 @@ struct Welcome: View {
             .background(.black)
             
             if isVisible{
-                Main(data1: data)
+                MainScreen(data: data)
             }
         }
     }

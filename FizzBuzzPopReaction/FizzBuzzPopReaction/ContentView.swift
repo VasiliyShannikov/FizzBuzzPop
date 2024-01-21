@@ -11,7 +11,7 @@ struct ContentView: View {
                     UserDefaults.standard.set(8, forKey: "numbers")
                 }
         } else {
-            Main(data1: data)
+            MainScreen(data: data)
         }
     }
 }
